@@ -41,6 +41,7 @@ fun check( a: Any): String {
 }//check
 
 fun cast(a: Any){
+    // as? : String으로 변환 안될때는 Null로 변환함
     val result = a as? String ?: "실패"
     println(result)
 }//cast
